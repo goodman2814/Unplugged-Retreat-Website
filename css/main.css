@@ -139,13 +139,14 @@ address {
 
 .content-wrapper {
   width: 90%;
-  margin: 50px;
+  margin: 50px 0;
 }
 
 /* ------------ Base Header - Footer Styles ------------ */
 
 header,
 footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,7 +156,6 @@ footer {
 /* Header styles */
 
 header {
-  background-color: #202322;
   padding: 15px 0;
 }
 
@@ -167,7 +167,8 @@ header .content-wrapper {
   margin: 0;
 }
 
-header .header-divider {
+.header-divider {
+  background: #3a3a3a;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -175,8 +176,10 @@ header .header-divider {
 
 header nav {
   width: 60%;
+  text-transform: uppercase;
+  font-weight: bold;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
 }
@@ -189,18 +192,13 @@ header nav ul {
 }
 
 header nav ul li {
-  text-transform: uppercase;
-  font-weight: bold;
+  font-size: 1.1em;
 }
 
 /* Footer */
 footer {
-  background-color: #202322;
-  flex-direction: column;
-}
-
-footer .footer-content {
   text-align: center;
+  flex-direction: column;
 }
 
 footer p {
@@ -239,6 +237,13 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .hero-area .content-wrapper {
@@ -319,6 +324,7 @@ input[type=button] {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -336,6 +342,7 @@ input[type=button] {
 }
 
 .reviews h2 {
+  line-height: 1;
   margin-bottom: 40px;
 }
 
@@ -347,6 +354,7 @@ input[type=button] {
 /* ------------ About Page ------------ */
 
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -354,10 +362,13 @@ input[type=button] {
 }
 
 .contact-section {
+  background-color: #2a423a;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
 }
 
 .contact-content p {
@@ -367,6 +378,7 @@ input[type=button] {
 /* ------------ FAQ Page------------ */
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -383,10 +395,15 @@ input[type=button] {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 /* ==========================================================================
