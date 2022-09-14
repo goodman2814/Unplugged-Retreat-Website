@@ -730,6 +730,18 @@ input[type=button] {
     align-items: flex-start;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
+  .mission .content-wrapper {
+    margin-bottom: 60px;
+  }
+
+  .mission-content .content-wrapper {
+    margin-top: 60px;
+  }
+
   /* ==========================================================================
      FAQ Page
      ========================================================================== */
@@ -833,6 +845,11 @@ input[type=button] {
   .mission .content-wrapper {
     margin: 20px 0 80px 0;
   }
+
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+
 
   /* ==========================================================================
      FAQ Page
