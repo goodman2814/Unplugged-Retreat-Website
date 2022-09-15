@@ -355,6 +355,11 @@ input[type=button] {
   margin: 0;
 }
 
+.features i {
+  font-size: 4em;
+  margin-bottom: 40px;
+}
+
 /* Reviews */
 
 .reviews {
@@ -651,7 +656,11 @@ input[type=button] {
   }
 
   .features .features-item-description {
-    width: 50%
+    width: 50%;
+  }
+
+  .features-items article:nth-last-child(1) {
+    padding-bottom: 17px;
   }
 
   /* Reviews */
@@ -817,7 +826,11 @@ input[type=button] {
   }
 
   .features article {
-    flex-basis: 33%
+    flex-basis: 33%;
+  }
+
+  .features-items article:nth-last-child(1) {
+    padding-bottom: 45px;
   }
 
   /* Reviews */
